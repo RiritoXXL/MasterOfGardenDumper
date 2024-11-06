@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -28,6 +28,8 @@ namespace MOGDumper_Injector
                 if (m.InjectDll("MasterOfGardenDumper.dll"))
                 {
                     Console.WriteLine("Injected!!!");
+                    Console.WriteLine("Thank you for Choosing This Injector... Created by RiritoXXL!!!");
+                    Environment.Exit(1442);
                 }
                 else
                 {
@@ -44,7 +46,6 @@ namespace MOGDumper_Injector
         }
         static void Main(string[] args)
         {
-
             Inject();
         }
     }
