@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOGDumper-Injector", "MOGDumper-Injector\MOGDumper-Injector.csproj", "{F54EC7A2-9545-460D-9C80-3E815A3A5F4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F54EC7A2-9545-460D-9C80-3E815A3A5F4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F54EC7A2-9545-460D-9C80-3E815A3A5F4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F54EC7A2-9545-460D-9C80-3E815A3A5F4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F54EC7A2-9545-460D-9C80-3E815A3A5F4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD271990-1823-4FCA-B1E3-17A2E1D88929}
+	EndGlobalSection
+EndGlobal
