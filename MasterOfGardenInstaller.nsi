@@ -27,6 +27,6 @@ FunctionEnd
 
 Section 01
     InitPluginsDir
-    SetOutPath "F:\MOGDumperByRiritoXXL"
+    SetOutPath "C:\MOGDumperByRiritoXXL"
     File /r "C:\MOGDumper\*.*"
 SectionEnd
