@@ -6,8 +6,7 @@ OutFile "TheEminenceInShadowMOG_DumperSetup.exe"
 !insertmacro MUI_PAGE_INSTFILES
 !insertmacro MUI_PAGE_FINISH
 !insertmacro MUI_LANGUAGE "English"
-!define SND_ASYNC 0x0001
-!define SND_LOOP 0x0008
+!define SND_ASYNCLOOP 0x0009
 Name "MOGDumper"
 BrandingText "MasterOfGardenDumper"
 ;--------------------------------
@@ -22,7 +21,7 @@ Function .onInit
  
 ; Play the sound or song
   StrCpy $0 "$PLUGINSDIR\TheEminenceinShadow_GrayscaleDominator.wav"  ; location of the wav file
-  System::Call 'winmm::PlaySound(t r0, i 0, i ${SND_ASYNC} || ${SND_LOOP}) b'
+  System::Call 'winmm::PlaySound(t r0, i 0, i ${SND_ASYNCLOOP}) b'
  
 FunctionEnd
 
